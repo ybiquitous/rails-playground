@@ -6,6 +6,11 @@ cache:
   directories:
     - node_modules
 
+addons:
+  apt:
+    packages:
+      - graphviz
+
 install:
   - bundle install --jobs=3 --retry=3
   - nvm install
