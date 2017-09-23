@@ -15,5 +15,11 @@ script:
   - bundle exec rails test
   - yarn lint
 
+deploy:
+  provider: script
+  script: .travis/deploy.sh
+  on:
+    branch: master
+
 notifications:
   email: false
