@@ -1,5 +1,7 @@
 # Ruby on Rails Playground
 
+[![Build Status](https://travis-ci.org/ybiquitous/rails-playground.svg?branch=master)](https://travis-ci.org/ybiquitous/rails-playground)
+
 ## Stack
 
 - Ruby 2.4
