@@ -20,3 +20,9 @@ bin/setup
 ```sh
 bin/rails s
 ```
+
+## Class Diagram
+
+![Diagram of Models](doc/models_brief.svg)
+
+![Diagram of Controllers](doc/controllers_brief.svg)
