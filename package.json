@@ -1,5 +1,27 @@
 {
   "name": "rails-playground",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "ybiq": "^0.2.0"
+  },
+  "scripts": {
+    "lint:js": "eslint --max-warnings=-1 --ignore-path=.gitignore .",
+    "lint:js:fix": "npm run lint:js -- --fix",
+    "lint:md": "markdownlint *.md",
+    "lint": "npm-run-all --parallel lint:js lint:md",
+    "commitmsg": "commitlint -e",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{rb,jbuilder}": [
+      "bundle exec rubocop --force-exclusion --auto-correct",
+      "git add"
+    ],
+    "*.{js,jsx}": [
+      "eslint --fix --max-warnings=-1 --no-ignore",
+      "git add"
+    ],
+    "*.md": "markdownlint"
+  }
 }
