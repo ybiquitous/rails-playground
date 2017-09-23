@@ -9,5 +9,11 @@
 ## Install
 
 ```sh
-bin/rails setup
+bin/setup
+```
+
+## Run
+
+```sh
+bin/rails s
 ```
