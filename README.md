@@ -27,6 +27,10 @@ bin/rails s
 bin/rails diagram:all
 ```
 
+### Model
+
 ![Diagram of Models](doc/models_brief.svg)
+
+### Controller
 
 ![Diagram of Controllers](doc/controllers_brief.svg)
