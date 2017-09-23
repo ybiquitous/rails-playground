@@ -26,12 +26,5 @@ script:
   - bin/rails test
   - yarn lint
 
-deploy:
-  provider: script
-  script: rvm . do ./.travis/deploy.sh
-  skip_cleanup: true
-  on:
-    branch: master
-
 notifications:
   email: false
