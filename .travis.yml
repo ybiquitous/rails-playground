@@ -26,11 +26,8 @@ script:
   - bin/rails test
   - yarn lint
 
-deploy:
-  provider: script
-  script: rvm . do .travis/deploy.sh
-  on:
-    branch: master
+after_success:
+  - if [[ $TRAVIS_BRANCH = 'master' ]]; then ./.travis/deploy.sh; fi
 
 notifications:
   email: false
