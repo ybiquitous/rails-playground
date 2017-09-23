@@ -14,3 +14,6 @@ install:
 script:
   - bundle exec rails test
   - yarn lint
+
+notifications:
+  email: false
