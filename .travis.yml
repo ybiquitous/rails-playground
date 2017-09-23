@@ -15,7 +15,6 @@ env:
   - DATABASE_SOCKET=
 
 install:
-  - mysql --version
   - bundle install --jobs=3 --retry=3
   - nvm install
   - yarn install

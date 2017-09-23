@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -ev
 
 bin/rails diagram:all
 git add doc
