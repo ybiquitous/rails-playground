@@ -6,6 +6,7 @@
 
 - Ruby 2.4
 - Ruby on Rails 5.1
+  - Factory Girl
 - MySQL 5
 - Yarn
 
