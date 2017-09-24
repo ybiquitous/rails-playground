@@ -24,6 +24,7 @@ before_script:
 
 script:
   - bin/rails test
+  - bundle exec rails_best_practices
   - yarn lint
 
 deploy:
