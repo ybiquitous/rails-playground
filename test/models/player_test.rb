@@ -3,6 +3,8 @@
 require 'test_helper'
 
 class PlayerTest < ActiveSupport::TestCase
-  # test "the truth" do
-  # end
+  test '#valid?' do
+    player = build_stubbed(:player)
+    assert { player.valid? }
+  end
 end

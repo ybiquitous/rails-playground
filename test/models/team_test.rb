@@ -3,7 +3,8 @@
 require 'test_helper'
 
 class TeamTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+  test '#valid?' do
+    team = build_stubbed(:team)
+    assert { team.valid? }
+  end
 end
