@@ -25,10 +25,6 @@ bin/rails s
 
 ## Class Diagram
 
-```sh
-bin/rails diagram:all
-```
-
 ### Model
 
 ![Diagram of Models](doc/models_brief.svg)
