@@ -14,4 +14,18 @@ class PlayerTest < ActiveSupport::TestCase
     player.teams << team
     assert_raises(ActiveRecord::RecordInvalid) { player.teams << team }
   end
+
+  test 'status' do
+    player = create(:player)
+    assert { !player.active? }
+    assert { player.inactive? }
+
+    player.update!(status: :active)
+    assert { player.active? }
+    assert { !player.inactive? }
+
+    player.status = nil
+    assert { !player.valid? }
+    assert { player.errors.key?(:status) }
+  end
 end

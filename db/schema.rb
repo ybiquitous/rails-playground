@@ -12,7 +12,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20_170_924_103_902) do
+ActiveRecord::Schema.define(version: 20_170_924_182_731) do
   create_table 'player_teams', force: :cascade, options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8' do |t|
     t.bigint 'player_id', null: false
     t.bigint 'team_id', null: false
@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 20_170_924_103_902) do
 
   create_table 'players', force: :cascade, options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8' do |t|
     t.string 'name', null: false
+    t.integer 'status', default: 0, null: false
     t.datetime 'created_at', null: false
     t.datetime 'updated_at', null: false
   end
