@@ -12,10 +12,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20_170_923_095_527) do
+ActiveRecord::Schema.define(version: 20_170_924_103_902) do
   create_table 'player_teams', force: :cascade, options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8' do |t|
     t.bigint 'player_id', null: false
     t.bigint 'team_id', null: false
+    t.index %w[player_id team_id], name: 'index_player_teams_on_player_id_and_team_id', unique: true
     t.index ['player_id'], name: 'index_player_teams_on_player_id'
     t.index ['team_id'], name: 'index_player_teams_on_team_id'
   end
