@@ -6,7 +6,7 @@
     "ybiq": "^0.2.0"
   },
   "scripts": {
-    "lint:rb": "rubocop",
+    "lint:rb": "bin/bundle exec rubocop",
     "lint:rb:fix": "npm run lint:rb -- --auto-correct",
     "lint:js": "eslint --max-warnings=-1 --ignore-path=.gitignore .",
     "lint:js:fix": "npm run lint:js -- --fix",
@@ -17,7 +17,7 @@
   },
   "lint-staged": {
     "*.{rb,rake,ru,jbuilder}": [
-      "rubocop --force-exclusion --auto-correct",
+      "bin/bundle exec rubocop --force-exclusion --auto-correct",
       "git add"
     ],
     "*.{js,jsx}": [
