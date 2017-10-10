@@ -15,7 +15,7 @@ env:
   - DATABASE_SOCKET=
 
 before_install:
-  - bundle config --local build.nokogiri --use-system-libraries
+  - bin/bundle config --local build.nokogiri --use-system-libraries
   - nvm install
   - yarn install
 
@@ -24,7 +24,6 @@ before_script:
 
 script:
   - bin/rails test
-  - bundle exec rails_best_practices
   - yarn lint
 
 deploy:
