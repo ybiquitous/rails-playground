@@ -2674,9 +2674,9 @@ yargs@~3.10.0:
     decamelize "^1.0.0"
     window-size "0.1.0"
 
-ybiq@^0.4.2:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/ybiq/-/ybiq-0.4.2.tgz#199cef5dc9f31f2571330aeebaacc5dcd3aa7597"
+ybiq@^0.4.3:
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/ybiq/-/ybiq-0.4.3.tgz#2df70ffb0f5f0cfd1b7201987745d653e73a3c09"
   dependencies:
     "@commitlint/cli" "^4.1.1"
     "@commitlint/config-angular" "^3.1.1"
