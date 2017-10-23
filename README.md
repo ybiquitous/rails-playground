@@ -7,7 +7,7 @@
 - Ruby 2.4
 - Ruby on Rails 5.1
   - RuboCop
-  - Factory Girl
+  - ~FactoryGirl~ FactoryBot
   - Power Assert
 - MySQL 5
 - Yarn
