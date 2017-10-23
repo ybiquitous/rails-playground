@@ -5,7 +5,7 @@ require 'rails/test_help'
 
 module ActiveSupport
   class TestCase
-    include FactoryGirl::Syntax::Methods
+    include FactoryBot::Syntax::Methods
 
     # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
     fixtures :all
