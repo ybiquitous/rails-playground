@@ -3,7 +3,7 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
-    "ybiq": "^0.4.3"
+    "ybiq": "^0.5.0"
   },
   "scripts": {
     "lint:rb": "bin/bundle exec rubocop",
