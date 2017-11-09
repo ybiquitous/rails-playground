@@ -11,6 +11,7 @@
   - ~FactoryGirl~ FactoryBot
   - Power Assert
   - RailRoady
+  - MetaTags
 - MySQL 5
 - Yarn
 
