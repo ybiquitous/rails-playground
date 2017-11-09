@@ -1,0 +1,29 @@
+<h1><%= Player.model_name.human %></h1>
+
+<p id="notice"><%= notice %></p>
+
+<table>
+  <tr>
+    <td><%= t('id') %>:</td>
+    <td><%= @player.id %></td>
+  </tr>
+  <tr>
+    <td><%= Player.human_attribute_name(:name) %>:</td>
+    <td><%= @player.name %></td>
+  </tr>
+  <tr>
+    <td><%= Player.human_attribute_name(:status) %>:</td>
+    <td><%= @player.status %></td>
+  </tr>
+  <tr>
+    <td><%= Player.human_attribute_name(:created_at) %>:</td>
+    <td><%= @player.created_at %></td>
+  </tr>
+  <tr>
+    <td><%= Player.human_attribute_name(:updated_at) %>:</td>
+    <td><%= @player.updated_at %></td>
+  </tr>
+</table>
+
+<%= link_to t('edit'), edit_player_path(@player) %> |
+<%= link_to t('back'), players_path %>
