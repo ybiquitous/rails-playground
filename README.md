@@ -9,6 +9,7 @@
   - RuboCop
   - ~FactoryGirl~ FactoryBot
   - Power Assert
+  - RailRoady
 - MySQL 5
 - Yarn
 
