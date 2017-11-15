@@ -6,5 +6,5 @@ class PlayerTeam < ApplicationRecord
 
   validates :player, presence: true
   validates :team, presence: true
-  validates :player_id, uniqueness: { scope: :team_id }
+  validates :player, uniqueness: { scope: :team }
 end
