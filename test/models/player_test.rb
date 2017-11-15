@@ -25,7 +25,7 @@ class PlayerTest < ActiveSupport::TestCase
     assert { !player.inactive? }
 
     player.status = nil
-    assert { !player.valid? }
-    assert { player.errors.key?(:status) }
+    assert { player.invalid? }
+    assert { player.errors.include?(:status) }
   end
 end

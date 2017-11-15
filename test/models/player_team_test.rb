@@ -10,7 +10,7 @@ class PlayerTeamTest < ActiveSupport::TestCase
   test '#valid? for uniqueness' do
     exist = create(:player_team)
     tested = build_stubbed(:player_team, player: exist.player, team: exist.team)
-    assert { !tested.valid? }
+    assert { tested.invalid? }
     assert { tested.errors[:player] == ['has already been taken'] }
   end
 end
