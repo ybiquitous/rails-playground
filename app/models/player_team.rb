@@ -4,5 +4,7 @@ class PlayerTeam < ApplicationRecord
   belongs_to :player
   belongs_to :team
 
-  validates :player_id, uniqueness: { scope: :team_id }
+  validates :player, presence: true
+  validates :team, presence: true
+  validates :player, uniqueness: { scope: :team }
 end
