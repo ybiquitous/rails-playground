@@ -27,12 +27,6 @@ bin/setup
 bin/rails s
 ```
 
-## Class Diagram
+## Document
 
-### Model
-
-![Diagram of Models](doc/models_brief.svg)
-
-### Controller
-
-![Diagram of Controllers](doc/controllers_brief.svg)
+Please see [here](doc/README.md).
