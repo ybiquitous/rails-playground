@@ -30,3 +30,7 @@ bin/rails s
 ## Document
 
 Please see [here](doc/README.md).
+
+## License
+
+[MIT](LICENSE) © ybiquitous
