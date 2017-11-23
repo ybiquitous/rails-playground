@@ -4,16 +4,21 @@
 
 ## Stack
 
-- Ruby 2.4
-- Ruby on Rails 5.1
-  - RuboCop
-  - Rails Best Practices
-  - ~FactoryGirl~ FactoryBot
-  - Power Assert
-  - RailRoady
-  - MetaTags
-- MySQL 5
-- Yarn
+- [Ruby](https://www.ruby-lang.org/) 2.4
+- [Ruby on Rails](http://rubyonrails.org/) 5.1
+  - View Helper
+    - [MetaTags](https://github.com/kpumuk/meta-tags)
+  - Testing
+    - [Minitest](http://docs.seattlerb.org/minitest)
+    - ~~FactoryGirl~~ [FactoryBot](https://github.com/thoughtbot/factory_bot)
+    - [Power Assert](https://github.com/k-tsj/power_assert)
+  - Code Analysis
+    - [RuboCop](http://rubocop.readthedocs.io/)
+    - [Rails Best Practices](https://rails-bestpractices.com/)
+  - Documentation
+    - [RailRoady](https://github.com/preston/railroady)
+- [MySQL](https://www.mysql.com/) 5
+- [Yarn](https://yarnpkg.com/)
 
 ## Install
 
