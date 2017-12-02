@@ -41,6 +41,8 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'factory_bot_rails'
   gem 'minitest-power_assert'
+  gem 'pry-byebug'
+  gem 'pry-rails'
   gem 'railroady'
   gem 'selenium-webdriver'
 end
