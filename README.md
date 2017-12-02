@@ -12,6 +12,8 @@
     - [Minitest](http://docs.seattlerb.org/minitest)
     - ~~FactoryGirl~~ [FactoryBot](https://github.com/thoughtbot/factory_bot)
     - [Power Assert](https://github.com/k-tsj/power_assert)
+  - Debugging
+    - [Pry](https://github.com/pry/pry)
   - Code Analysis
     - [RuboCop](http://rubocop.readthedocs.io/)
     - [Rails Best Practices](https://rails-bestpractices.com/)
