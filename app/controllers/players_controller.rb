@@ -2,11 +2,11 @@
 
 class PlayersController < ApplicationController
   def index
-    @players = Player.all
+    @players = Player.all.decorate
   end
 
   def show
-    @player = find_player
+    @player = find_player.decorate
   end
 
   def new
