@@ -6,9 +6,9 @@
     "ybiq": "^0.5.0"
   },
   "scripts": {
-    "lint:rb": "bin/bundle exec rubocop",
+    "lint:rb": "bundle exec rubocop",
     "lint:rb:fix": "npm run lint:rb -- --auto-correct",
-    "lint:rails": "bin/bundle exec rails_best_practices --test",
+    "lint:rails": "bundle exec rails_best_practices --test",
     "lint:js": "eslint --max-warnings=-1 --ignore-path=.gitignore --ext=.js --ext=.jsx .",
     "lint:js:fix": "npm run lint:js -- --fix",
     "lint:md": "markdownlint *.md",
@@ -18,8 +18,8 @@
   },
   "lint-staged": {
     "*.{rb,rake,ru,jbuilder}": [
-      "bin/bundle exec rubocop --force-exclusion --auto-correct",
-      "bin/bundle exec rails_best_practices --test",
+      "bundle exec rubocop --force-exclusion --auto-correct",
+      "bundle exec rails_best_practices --test",
       "git add"
     ],
     "*.{js,jsx}": [
