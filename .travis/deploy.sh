@@ -1,7 +1,7 @@
 #!/bin/bash
 set -ev
 
-bin/rails diagram:all
+bundle exec rails diagram:all
 git add doc
 
 cat <<MSG | git commit --file -
