@@ -2,6 +2,8 @@ AllCops:
   DisplayCopNames: true
   DisplayStyleGuide: true
   TargetRailsVersion: 5.1
+  Exclude:
+    - 'db/schema.rb'
 
 Rails:
   Enabled: true
