@@ -12,7 +12,7 @@ class CreatePlayersAndTeams < ActiveRecord::Migration[5.1]
       t.timestamps
     end
 
-    create_table :player_teams do |t|
+    create_table :player_teams do |t| # rubocop:disable Rails/CreateTableWithTimestamps
       t.belongs_to :player, null: false, foreign_key: true
       t.belongs_to :team, null: false, foreign_key: true
     end
