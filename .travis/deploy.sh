@@ -5,7 +5,7 @@ bin/rails diagram:all
 git add doc
 
 cat <<MSG | git commit --file -
-update class diagrams
+docs: update class diagrams
 
 [skip ci]
 MSG
