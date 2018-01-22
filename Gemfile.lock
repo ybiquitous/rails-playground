@@ -111,7 +111,7 @@ GEM
     minitest-power_assert (0.3.0)
       minitest
       power_assert (>= 1.1)
-    multi_json (1.13.0)
+    multi_json (1.13.1)
     mysql2 (0.4.10)
     nio4r (2.2.0)
     nokogiri (1.8.1)
