@@ -15,6 +15,7 @@ env:
   - DATABASE_SOCKET=
 
 before_install:
+  - gem update --system # https://github.com/travis-ci/travis-ci/issues/8978#issuecomment-354036443
   - bundle config --local build.nokogiri --use-system-libraries
   - nvm install
   - yarn install
