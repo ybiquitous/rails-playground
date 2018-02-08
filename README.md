@@ -4,7 +4,7 @@
 
 ## Stack
 
-- [Ruby](https://www.ruby-lang.org/) 2.4
+- [Ruby](https://www.ruby-lang.org/) 2.5
 - [Ruby on Rails](http://rubyonrails.org/) 5.1
   - View Helper
     - [MetaTags](https://github.com/kpumuk/meta-tags)
