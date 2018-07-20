@@ -1,4 +1,7 @@
 {
   "root": true,
-  "extends": ["ybiquitous"]
+  "extends": ["ybiquitous/browser"],
+  "rules": {
+    "spaced-comment": "warn"
+  }
 }
