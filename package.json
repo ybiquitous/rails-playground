@@ -3,7 +3,8 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
-    "ybiq": "^1.2.0"
+    "eslint-config-ybiquitous": "^6.0.0",
+    "ybiq": "^4.0.0"
   },
   "scripts": {
     "lint:rb": "bundle exec rubocop --parallel",
