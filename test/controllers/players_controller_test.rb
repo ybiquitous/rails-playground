@@ -3,6 +3,12 @@
 require 'test_helper'
 
 class PlayersControllerTest < ActionDispatch::IntegrationTest
+  include Devise::Test::IntegrationHelpers
+
+  setup do
+    sign_in create(:user)
+  end
+
   test '#index' do
     get '/players'
     assert { status == 200 }
