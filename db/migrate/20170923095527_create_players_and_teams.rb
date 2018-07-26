@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class CreatePlayersAndTeams < ActiveRecord::Migration[5.1]
-  def change # rubocop:disable Metrics/MethodLength
+  def change
     create_table :players do |t|
       t.string :name, null: false
       t.timestamps
