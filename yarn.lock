@@ -1013,9 +1013,9 @@ eslint-config-prettier@^2.9.0:
   dependencies:
     get-stdin "^5.0.1"
 
-eslint-config-ybiquitous@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-ybiquitous/-/eslint-config-ybiquitous-6.0.0.tgz#62eae41f1a9e9021eebd5648b30fea1772ea78d0"
+eslint-config-ybiquitous@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-ybiquitous/-/eslint-config-ybiquitous-6.1.0.tgz#dd1d4e6caf8f521d679225da258a0b8565a59e61"
   dependencies:
     eslint-config-prettier "^2.9.0"
     eslint-plugin-compat "^2.0.1"
