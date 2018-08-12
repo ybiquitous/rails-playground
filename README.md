@@ -5,7 +5,7 @@
 ## Stack
 
 - [Ruby](https://www.ruby-lang.org/) 2.5
-- [Ruby on Rails](http://rubyonrails.org/) 5.1
+- [Ruby on Rails](http://rubyonrails.org/) 5.2
   - View Helper
     - [MetaTags](https://github.com/kpumuk/meta-tags)
     - [Draper](https://github.com/drapergem/draper)
