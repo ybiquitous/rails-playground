@@ -21,6 +21,7 @@ before_install:
 
 before_script:
   - bundle exec rails db:setup
+  - bundle exec chromedriver-update
 
 script:
   - bundle exec rails test
