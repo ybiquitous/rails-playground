@@ -1,7 +1,6 @@
 AllCops:
   DisplayCopNames: true
   DisplayStyleGuide: true
-  TargetRailsVersion: 5.1
   Exclude:
     - 'node_modules/**/*'
     - 'vendor/**/*'
