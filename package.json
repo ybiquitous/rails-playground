@@ -4,7 +4,7 @@
   "dependencies": {},
   "devDependencies": {
     "eslint-config-ybiquitous": "^6.1.0",
-    "ybiq": "^4.1.0"
+    "ybiq": "^5.0.0"
   },
   "scripts": {
     "lint:rb": "bundle exec rubocop --parallel",
@@ -14,14 +14,18 @@
     "lint:js:fix": "npm run lint:js -- --fix",
     "lint:md": "markdownlint --ignore node_modules --ignore CHANGELOG.md --ignore \"vendor/bundle\" \"**/*.md\"",
     "lint": "npm-run-all --print-label --parallel lint:*",
-    "commitmsg": "commitlint -E GIT_PARAMS",
-    "precommit": "lint-staged",
     "test": "test",
     "test:watch": "test --watch",
     "test:coverage": "echo \"unsupported.\" && exit 1",
     "lint:md:fix": "prettier --write \"**/*.md\"",
     "release": "standard-version --sign",
     "release:dry-run": "npm run release -- --dry-run"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
   },
   "lint-staged": {
     "linters": {
