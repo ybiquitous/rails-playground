@@ -4,7 +4,7 @@
   "dependencies": {},
   "devDependencies": {
     "eslint-config-ybiquitous": "^6.2.0",
-    "ybiq": "^5.0.0"
+    "ybiq": "^5.0.1"
   },
   "scripts": {
     "lint:rb": "bundle exec rubocop --parallel",
