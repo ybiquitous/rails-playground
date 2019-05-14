@@ -108,9 +108,8 @@ GEM
       concurrent-ruby (~> 1.0)
     io-like (0.3.0)
     jaro_winkler (1.5.2)
-    jbuilder (2.8.0)
+    jbuilder (2.9.0)
       activesupport (>= 4.2.0)
-      multi_json (>= 1.2)
     json (2.1.0)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -133,7 +132,6 @@ GEM
     minitest-power_assert (0.3.0)
       minitest
       power_assert (>= 1.1)
-    multi_json (1.13.1)
     mysql2 (0.5.2)
     nio4r (2.3.1)
     nokogiri (1.10.3)
@@ -273,7 +271,7 @@ DEPENDENCIES
   devise
   draper
   factory_bot_rails
-  jbuilder (~> 2.8)
+  jbuilder (~> 2.9)
   listen (>= 3.0.5, < 3.2)
   meta-tags
   minitest-power_assert
